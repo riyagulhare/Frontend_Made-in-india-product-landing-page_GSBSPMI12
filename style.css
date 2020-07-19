@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -26,7 +27,7 @@ a{
 /*--------Header------------*/
 header{
     background: var(--dark);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
 }
 nav{
     display: flex;
@@ -73,8 +74,8 @@ li:nth-child(3):hover ~ .animation{
     left: 200px;
 }
 li:nth-child(4):hover ~ .animation{
-    width: 100px;
-    left:340px;
+    width: 150px;
+    left:337px;
 }
 .hero{
     display: flex;
@@ -91,7 +92,7 @@ li:nth-child(4):hover ~ .animation{
  }
 .hero .hero-img img{
     width: 400px;
-    heigh:auto;
+    height:auto;
     object-fit: cover;
     padding-bottom: 2rem;
     padding-left: 4rem;
@@ -253,125 +254,418 @@ section{
 .product1 .details #para1{
     color: var(--ternary);
 }
+/*--------Products Section part2-----------*/
+.product2{
+    background-color: var(--pure);
+   }
+   .slider1{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .product2 h1{
+       color:#070606;
+       text-align: center;
+       margin-bottom: 4rem;
+       line-height: 0.5;
+       font-size: 2rem;
+       
+   }
+   .product2 h1 span{
+       color: var(--primary);
+   }
+   .product2 .box{
+       width: 300px;
+       height: 450px;
+       border-radius: 10px;
+       box-shadow: 0 0 10px #dddde3;
+       background-color: var(--pure);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       box-sizing: border-box;
+       margin: 20px 10px;
+   }
+   .product2  .box img{
+       width: 100%;
+       height: 160px;
+   }
+   .product2 .slider1{
+       display: flex;
+   }
+   .product2 .details{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 250px;
+   }
+   .product2 .details #title2{
+       font-size: 1.5rem;
+       margin-bottom: 0.9rem;
+   }
+   .product2 .details #para2{
+       color: var(--ternary);
+   }
+   /*--------Product3----------*/
+   .product3{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 72% 90%, 0 100%);
+   }
+   .slider2{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .product3 h1{
+       color: var(--light);
+       text-align: center;
+       margin-bottom: 4rem;
+       line-height: 0.5;
+       font-size: 2rem;
+       
+   }
+   .product3 h1 span{
+       color: var(--primary);
+   }
+   .product3 .box{
+       width: 300px;
+       height: 450px;
+       border-radius: 10px;
+       box-shadow: 0 0 10px #dddde3;
+       background-color: var(--pure);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+       box-sizing: border-box;
+       margin: 20px 10px;
+   }
+   .product3  .box img{
+       width: 100%;
+       height: 160px;
+   }
+   .product3 .slider2{
+       display: flex;
+   }
+   .product3 .details{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 250px;
+   }
+   .product3 .details #title3{
+       font-size: 1.5rem;
+       margin-bottom: 0.9rem;
+   }
+   .product3 .details #para3{
+       color: var(--ternary);
+   }
+    /*--------Product4----------*/
+    .product4{
+        background-color: var(--pure);
+       }
+       .slider3{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+       .product4 h1{
+           color: var(--dark);
+           text-align: center;
+           margin-bottom: 4rem;
+           line-height: 0.5;
+           font-size: 2rem;
+           
+       }
+       .product4 h1 span{
+           color: var(--primary);
+       }
+       .product4 .box{
+           width: 300px;
+           height: 450px;
+           border-radius: 10px;
+           box-shadow: 0 0 10px #dddde3;
+           background-color: var(--pure);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-evenly;
+           box-sizing: border-box;
+           margin: 20px 10px;
+       }
+       .product4  .box img{
+           width: 100%;
+           height: 160px;
+       }
+       .product4 .slider3{
+           display: flex;
+       }
+       .product4 .details{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 250px;
+       }
+       .product4 .details #title4{
+           font-size: 1.5rem;
+           margin-bottom: 0.9rem;
+       }
+       .product4 .details #para4{
+           color: var(--ternary);
+       }
+       /*----------ALTERNATIVES--------*/
+       .alternative{
+           background: var(--light);
+           align-items: center;
+           justify-content: center;
+           display: flex;
+           flex-direction: column;
+       }
+       .alternative p{
+           color: #070606;
+           font-size: 1.5rem;
+           margin-bottom: 4rem;
+       }
+       .alternative .click{
+           margin-left: 25rem;
+       }
+       .alternative a{
+           background-color: var(--primary);
+           color: #070606;
+           padding: 1.6rem 3rem;
+           font-size: 1.6rem;
+           font-weight: 600;
 
- <!---------Food Products--------------->
-        <section class="product2" id="products">
-            <div class="container">
-                <h1><span>Food</span> & Daily Needs</h1>
-                <div class="slider1">
-                    <ul id="autoWidth1" class="cs-hidden">
-                        <li class="item-b">
-                <div class="box">
-                   <img src="./pr4.jpg" alt="" id="#pr2-1">
-                   <div class="details">
-                       <h3 id="title2">Good day Biscuits</h3>
-                       <p id="para2">It is an Indian brand biscuit manufactured in Britania Biscuit company.</p>
-                   </div>
-                </div>
-                        </li>
+       }
+
+       /*--------Footer------------*/
+       .footer{
+           background-color: var(--dark);
+           color: var(--light);
+           padding: 2rem 6rem;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+       }
+       .footer .sources{
+           margin-top: 2rem;
+           margin-bottom: 2rem;
+       }
+       .footer .sources h3{
+           font-size: 2rem;
+       }
+       .footer .sources .icons{
+           padding-top: 0.8rem;
+           padding-left: 6rem;
+       }
+       .footer .sources .icons img{
+            width: 80px;
+            height: auto;
+       }
+       .footer p{
+           color: #898989;
+       }
+       /*---------Arrow-------------*/
+       .arrow{
+           right: 25px;
+           bottom: 20px;
+           position: fixed;
+           width: 45px;
+           height: 45px;
+           cursor: pointer;
+       }
+       .arrow img{
+           width: 100%;
+           height: 100%;
+           z-index: 1;
+       }
+       /*--------Hamburger-------*/
+       .wrapper{
+           position: relative;
+       }
+       .hamburger{
+           position: absolute;
+           top: 30px;
+           right: 20px;
+           z-index: 0;
+           background: none;
+           border: none;
+           outline: none;
+           cursor: pointer;
+       }
+       .mobile-nav{
+           position: fixed;
+           top: 0;
+           left: 0;
+           background: var(--light);
+           z-index: 1001;
+           width: 40%;
+           height: 1000%;
+           padding: 4rem;
+           padding-top: 5rem;
+           transform: translateX(-100%);
+           transition: all 0.5s ease-in-out;
+       }
+       .close{
+         position: fixed;
+         top: 30px;
+         right: 30px;
+         border: none;
+         outline: none;
+       }
+       .open{
+           transform: translateX(0%);
+       }
+       .mobile-nav ul{
+           list-style: none;
+           text-align: center;
+       }
+       .mobile-nav ul li a{
+           text-decoration: none;
+           color: #070606;
+           font-size: 4rem;
+           
+       }
+       /*-------Media Queries----------*/
+
+       @media (max-width: 1034px)
+       {
+           #home #nav{
+            display: none;
+           }
+           .hamburger{
+               z-index: 11;
+           }
+           .hero .hero-content {
+               padding-top: 3rem;
+           }
+           .hero .hero-content h1{
+               font-weight: 600;
+           }
+           .about .about-img{
+               width: 250px;
+               padding-top: 70px;
+           }
+           .about .about-img img{
+               width: 100%;
+           }
+       }
+       @media (max-width: 768px){
+           .about .about-content{
+               width: 300px;
+           }
+           .about .about-content h1{
+               font-size: 3rem;
+           }
+           .about .about-img{
+            width: 200px;
+            margin-top: 50px;
+        }
+        .hero .hero-content h1{
+            font-size: 3rem;
+        }
+        .hero .hero-content p{
+            font-size: 1rem;
+        }
+        .hero .hero-content .btn{
+            padding: 0.8rem 1.6rem;
+            margin-bottom: 5rem;
+        }
+        .hero .hero-img img{
+            width: 300px ;
+        }
+        .alternative{
+            padding: 2rem 3rem;
+        }
+        .alternative p {
+            font-size: 1.3rem;
+        }
+        .alternative .click a{
+            padding: 0.8rem 2rem;
+
+        }
+        .alternative .click{
+            margin-left: 10rem;
+        }
         
-                <li class="item-b">
-                 <div class="box">
-                               <img src="./pr2.jpg" alt="" id="#pr2-2">
-                               <div class="details">
-                                   <h3 id="title2">Ghadi Detergent</h3>
-                                   <p id="para2">It is a Washing powder, manufactured in India under RSPL limited group.
-                                   </p>
-                               </div>
-                            </div>
-                                    </li>
-        
-                          <li class="item-b">
-                          <div class="box">
-                            <img src="./pr23.jpg" alt="">
-                          <div class="details">
-                                <h3 id="title2">Amul Chocolates</h3>
-                                 <p id="para2">Amul is a popular indian dairy product company based at Anand Gujarat.</p>
-                           </div>
-                             </div>
-                              </li>
-                             <li class="item-b">
-                                <div class="box">
-                                <img src="./pr9.jpg" alt="">
-                                <div class="details">
-                                     <h3 id="title2">Frooti</h3>
-                                    <p id="para2">Frooti is the largest selling mango flavoured drink in India under parle Agro India Pvt limited.</p>
-                                 </div>
-                                </div>
-                             </li>
-                             <li class="item-b">
-                               <div class="box">
-                                 <img src="./pr3.jpg" alt="">
-                                <div class="details">
-                                  <h3 id="title2">Medimix Soap</h3>
-                                 <p id="para2">Medimix is an Indian brand of ayurvedic/herbal soap manufactured by Cholayil Private Limited in Chennai</p>
-                              </div>
-                              </div>
-                             </li>                  
-                    </ul>
-                </div>
-    </div>
-</section>
+       }
+       @media (max-width:576px){
+           .hero{
+               flex-direction: column-reverse;
+               padding: 2rem 0;
+           }
+           .hero .hero-content{
+               margin-bottom: 4rem;
+           }
+           .hero .hero-img{
+               margin-left: -20rem;
+               margin-top: 1rem;
+           }
+           .hero .hero-img img{
+               animation: none;
+               width: 180px;
+           }
+           .about .container{
+               flex-direction: column-reverse;
+           }
+           .about .about-content h1{
+               margin-left: 3rem;
+               font-size: 4rem;
+               margin-bottom: 2rem;
+           }
+           .about .about-img img{
+               animation: none;
+               display: none;
+           }
+           .about .about-content{
+               width: 350px;
+           }
+           .product1  h1{
+               font-size: 1.5rem;
+           }
+           .product2  h1{
+            font-size: 1.5rem;
+        }
+        .product3  h1{
+            font-size: 1.3rem;
+        }
+        .product3{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 93%, 0 100%);
+        }
+        .product4  h1{
+            font-size: 1.5rem;
+        }
+        .alternative .click{
+            margin-left: 5rem;
+            margin-bottom: 2rem;
+        }
+        .footer{
+            padding: 2rem 2.5rem;
+        }
+        .footer .sources h3{
+            font-size: 1.3rem;
+        }
+        .footer .sources .icons{
+            margin-left: -3rem;
+        }
+        .footer .sources .icons img{
+            width: 50px;
+        }
+        .footer p{
+            margin-top: -1rem;
+        }
+        .arrow{
+            right: -10px;
+        }
+        .arrow img{
+            width: 30px;
+        }
 
-<!-------------------Product3-------------------->
-<section class="product3" id="products">
-    <div class="container">
-        <h1><span>Technologies</span> & Automobiles</h1>
-        <div class="slider2">
-            <ul id="autoWidth2" class="cs-hidden">
-                <li class="item-c">
-        <div class="box">
-           <img src="./pr7.jpg" alt="" id="#pr3-1">
-           <div class="details">
-               <h3 id="title3">Micromax Mobiles</h3>
-               <p id="para3">Micromax is an Indian smartphone Brand manufacture in Gurugram, Haryana.</p>
-           </div>
-        </div>
-                </li>
-
-        <li class="item-c">
-         <div class="box">
-                       <img src="./pr8.jpg" alt="" id="#pr3-2">
-                       <div class="details">
-                           <h3 id="title3">Maruti Suzuki cars</h3>
-                           <p id="para3"> All brands under Maruti cars are owned and manufactured in india. 
-                           </p>
-                       </div>
-                    </div>
-                            </li>
-
-                  <li class="item-c">
-                  <div class="box">
-                    <img src="./pr1.jpg" alt="">
-                  <div class="details">
-                        <h3 id="title3">Godrej Refrigerators</h3>
-                         <p id="para3">Godrej refrigerators are manufactured by godrej group of company in India.</p>
-                   </div>
-                     </div>
-                      </li>
-                     <li class="item-c">
-                        <div class="box">
-                        <img src="./pr16.jpg" alt="">
-                        <div class="details">
-                             <h3 id="title3">Bikes</h3>
-                            <p id="para3">Hero is an indian bikes and scooter brand owned by hero motorcop Ltd.</p>
-                         </div>
-                        </div>
-                     </li>
-                     <li class="item-c">
-                       <div class="box">
-                         <img src="./pr24.jpg" alt="">
-                        <div class="details">
-                          <h3 id="title3">Kitchen Appliances</h3>
-                         <p id="para3">Bajaj electronic products are manufactured by Bajaj limited an Indian Company.</p>
-                      </div>
-                      </div>
-                     </li>                  
-            </ul>
-        </div>
-</div>
-</section>
-
+       }
+    
+       
 
 
 
