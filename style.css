@@ -254,6 +254,124 @@ section{
     color: var(--ternary);
 }
 
+ <!---------Food Products--------------->
+        <section class="product2" id="products">
+            <div class="container">
+                <h1><span>Food</span> & Daily Needs</h1>
+                <div class="slider1">
+                    <ul id="autoWidth1" class="cs-hidden">
+                        <li class="item-b">
+                <div class="box">
+                   <img src="./pr4.jpg" alt="" id="#pr2-1">
+                   <div class="details">
+                       <h3 id="title2">Good day Biscuits</h3>
+                       <p id="para2">It is an Indian brand biscuit manufactured in Britania Biscuit company.</p>
+                   </div>
+                </div>
+                        </li>
+        
+                <li class="item-b">
+                 <div class="box">
+                               <img src="./pr2.jpg" alt="" id="#pr2-2">
+                               <div class="details">
+                                   <h3 id="title2">Ghadi Detergent</h3>
+                                   <p id="para2">It is a Washing powder, manufactured in India under RSPL limited group.
+                                   </p>
+                               </div>
+                            </div>
+                                    </li>
+        
+                          <li class="item-b">
+                          <div class="box">
+                            <img src="./pr23.jpg" alt="">
+                          <div class="details">
+                                <h3 id="title2">Amul Chocolates</h3>
+                                 <p id="para2">Amul is a popular indian dairy product company based at Anand Gujarat.</p>
+                           </div>
+                             </div>
+                              </li>
+                             <li class="item-b">
+                                <div class="box">
+                                <img src="./pr9.jpg" alt="">
+                                <div class="details">
+                                     <h3 id="title2">Frooti</h3>
+                                    <p id="para2">Frooti is the largest selling mango flavoured drink in India under parle Agro India Pvt limited.</p>
+                                 </div>
+                                </div>
+                             </li>
+                             <li class="item-b">
+                               <div class="box">
+                                 <img src="./pr3.jpg" alt="">
+                                <div class="details">
+                                  <h3 id="title2">Medimix Soap</h3>
+                                 <p id="para2">Medimix is an Indian brand of ayurvedic/herbal soap manufactured by Cholayil Private Limited in Chennai</p>
+                              </div>
+                              </div>
+                             </li>                  
+                    </ul>
+                </div>
+    </div>
+</section>
+
+<!-------------------Product3-------------------->
+<section class="product3" id="products">
+    <div class="container">
+        <h1><span>Technologies</span> & Automobiles</h1>
+        <div class="slider2">
+            <ul id="autoWidth2" class="cs-hidden">
+                <li class="item-c">
+        <div class="box">
+           <img src="./pr7.jpg" alt="" id="#pr3-1">
+           <div class="details">
+               <h3 id="title3">Micromax Mobiles</h3>
+               <p id="para3">Micromax is an Indian smartphone Brand manufacture in Gurugram, Haryana.</p>
+           </div>
+        </div>
+                </li>
+
+        <li class="item-c">
+         <div class="box">
+                       <img src="./pr8.jpg" alt="" id="#pr3-2">
+                       <div class="details">
+                           <h3 id="title3">Maruti Suzuki cars</h3>
+                           <p id="para3"> All brands under Maruti cars are owned and manufactured in india. 
+                           </p>
+                       </div>
+                    </div>
+                            </li>
+
+                  <li class="item-c">
+                  <div class="box">
+                    <img src="./pr1.jpg" alt="">
+                  <div class="details">
+                        <h3 id="title3">Godrej Refrigerators</h3>
+                         <p id="para3">Godrej refrigerators are manufactured by godrej group of company in India.</p>
+                   </div>
+                     </div>
+                      </li>
+                     <li class="item-c">
+                        <div class="box">
+                        <img src="./pr16.jpg" alt="">
+                        <div class="details">
+                             <h3 id="title3">Bikes</h3>
+                            <p id="para3">Hero is an indian bikes and scooter brand owned by hero motorcop Ltd.</p>
+                         </div>
+                        </div>
+                     </li>
+                     <li class="item-c">
+                       <div class="box">
+                         <img src="./pr24.jpg" alt="">
+                        <div class="details">
+                          <h3 id="title3">Kitchen Appliances</h3>
+                         <p id="para3">Bajaj electronic products are manufactured by Bajaj limited an Indian Company.</p>
+                      </div>
+                      </div>
+                     </li>                  
+            </ul>
+        </div>
+</div>
+</section>
+
 
 
 
