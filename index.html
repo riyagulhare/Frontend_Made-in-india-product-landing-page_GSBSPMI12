@@ -10,18 +10,31 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
-    <header>
+   <div class="wrapper">
+       <button class="hamburger">
+           <img src="./hamburger.png" alt="">
+       </button>
+       <div class="mobile-nav">
+           <button class="close"><img src="./close.png" alt=""></button>
+           <ul>
+               <li><a href=""></a>Home</li>
+               <li><a href=""></a>About</li>
+               <li><a href=""></a>Products</li>
+               <li><a href=""></a>Alternatives</li>
+           </ul>
+       </div>
+    <header id="home">
         <div class="container">
-            <nav>
+            <nav id="nav">
                 <div class="left">
                     <img src="./mdi.jpeg" alt="">
                 </div>
                 <div class="right">
                     <ul>
-                        <li> <a href="#">Home</a></li>
-                        <li> <a href="#">About</a></li>
-                        <li> <a href="#">Products</a></li>
-                        <li> <a href="#">Contacts</a></li>
+                        <li> <a href="#hone">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#products">Products</a></li>
+                        <li> <a href="#alternative">Alternatives</a></li>
                         <li class="animation"></li>
                     </ul>
                 </div>
@@ -114,8 +127,9 @@
         </div>
         </div>
         </section>
-<!------------------Product2---------------------->
-       <section class="product2" id="products">
+
+        <!---------Food Products--------------->
+        <section class="product2" id="products">
             <div class="container">
                 <h1><span>Food</span> & Daily Needs</h1>
                 <div class="slider1">
@@ -172,8 +186,8 @@
                 </div>
     </div>
 </section>
-      
-    <!-------------------Product3-------------------->
+
+<!-------------------Product3-------------------->
 <section class="product3" id="products">
     <div class="container">
         <h1><span>Technologies</span> & Automobiles</h1>
@@ -235,25 +249,25 @@
 <!-------------------Product4-------------------->
 <section class="product4" id="products">
     <div class="container">
-        <h1><span>Technologies</span> & Automobiles</h1>
+        <h1><span>Other</span> Products</h1>
         <div class="slider3">
             <ul id="autoWidth3" class="cs-hidden">
                 <li class="item-d">
         <div class="box">
-           <img src="./pr7.jpg" alt="" id="#pr4-1">
+           <img src="./pr25.jpg" alt="" id="#pr4-1">
            <div class="details">
-               <h3 id="title4">Micromax Mobiles</h3>
-               <p id="para4">Micromax is an Indian smartphone Brand manufacture in Gurugram, Haryana.</p>
+               <h3 id="title4">Lakme Cosmetics</h3>
+               <p id="para4">Lakme is the top brand in India,belonging to Unilever Owned by data.</p>
            </div>
         </div>
                 </li>
 
         <li class="item-d">
          <div class="box">
-                       <img src="./pr8.jpg" alt="" id="#pr4-2">
+                       <img src="./pr26.jpg" alt="" id="#pr4-2">
                        <div class="details">
-                           <h3 id="title4">Maruti Suzuki cars</h3>
-                           <p id="para4"> All brands under Maruti cars are owned and manufactured in india. 
+                           <h3 id="title4">Flair Pens</h3>
+                           <p id="para4">Flair is an Indian Pen brand, leading exporter and manufacturer of pens.
                            </p>
                        </div>
                     </div>
@@ -261,28 +275,28 @@
 
                   <li class="item-d">
                   <div class="box">
-                    <img src="./pr1.jpg" alt="">
+                    <img src="./pr27.jpg" alt="">
                   <div class="details">
-                        <h3 id="title4">Godrej Refrigerators</h3>
-                         <p id="para4">Godrej refrigerators are manufactured by godrej group of company in India.</p>
+                        <h3 id="title4">Raymonds</h3>
+                         <p id="para4">Raymond is an India fashion and fabric brand, its headquarter is in Mumbai.</p>
                    </div>
                      </div>
                       </li>
                      <li class="item-d">
                         <div class="box">
-                        <img src="./pr16.jpg" alt="">
+                        <img src="./pr28.jpg" alt="">
                         <div class="details">
-                             <h3 id="title4">Bikes</h3>
-                            <p id="para4">Hero is an indian bikes and scooter brand owned by hero motorcop Ltd.</p>
+                             <h3 id="title4">Himalya Facewash</h3>
+                            <p id="para4">It is manufactured by Himalya company a leading herbal product manufacturer. </p>
                          </div>
                         </div>
                      </li>
                      <li class="item-d">
                        <div class="box">
-                         <img src="./pr24.jpg" alt="">
+                         <img src="./pr30.jpg" alt="">
                         <div class="details">
-                          <h3 id="title4">Kitchen Appliances</h3>
-                         <p id="para4">Bajaj electronic products are manufactured by Bajaj limited an Indian Company.</p>
+                          <h3 id="title4">Dabur Red Paste</h3>
+                         <p id="para4">Dabur Red Toothpaste is an ayurvedic paste made by Dabur India.</p>
                       </div>
                       </div>
                      </li>                  
@@ -290,6 +304,31 @@
         </div>
 </div>
 </section>
+<!---------Alternative section------->
+<section class="alternative" id="alternative">
+    <div class="container">
+        <p>To know about the foreign alternatives of above mentioned products click on the button.</p>
+        <div class="click">
+        <a href="./alternative.html">Alternatives</a>
+        </div>
+    </div>
+</section>
+<!---------Footer Section----------->
+<div class="footer">
+<div class="sources">
+    <h3>Source Of Images & Content</h3>
+    <div class="icons">
+        <img src="./google.png" alt="">
+        <img src="./canva.png" alt="">
+        <img src="./icon8.png" alt="">
+    </div>
+</div>
+<p>This is an informational website based on Made In India products. Designed by Riya Gulhare.</p>
+</div>
+<div class="arrow">
+    <a href="#home"><img src="./arrow1.png" alt=""></a>
+</div>
+</div>
 <script src="./lightslider.js"></script>
 <script src="app.js"></script>
 </body>
