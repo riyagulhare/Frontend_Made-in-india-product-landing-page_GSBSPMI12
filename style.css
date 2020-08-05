@@ -664,6 +664,45 @@ section{
         }
 
        }
+@media (max-width:450px){
+           .hero .hero-img{
+               margin-top: 2rem;
+               margin-left: -15rem;
+           }
+           .hero .hero-img img{
+               width: 180px;
+           }
+           .about{
+               padding: 2rem 0.5rem;
+           }
+           .about .about-content h1{
+               font-size: 3rem;
+               margin-left: 4rem ;
+           }
+           .product1 h1, .product2 h1, .product3 h1{
+               font-size: 1.8rem;
+               line-height: 1.1;
+           }
+           .alternative{
+               padding: 2rem ;
+           }
+           .alternative p{
+               font-size: 1.3rem;
+               margin-bottom: 2.5rem;
+           }
+           .alternative .click{
+               margin-left: 2rem;
+           }
+           .alternative .click a{
+               padding: 0.5rem 1.6rem;
+           }
+           .product1, .product2, .product3, .product4{
+               padding-top: 2rem;
+               padding-bottom: 8rem;
+               padding-left: 1rem;
+               padding-right: 1rem;
+           }
+       }
     
        
 
